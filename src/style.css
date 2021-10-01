@@ -1,0 +1,75 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    background-color: #F0FFFF;
+}
+
+#title {
+    text-align: center;
+    font-size: 4.5em;
+    font-weight: 800;
+    text-shadow: 3px 3px grey;
+}
+
+#score-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.player-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 250px;
+}
+
+#player-one-container {
+    margin-right: 50px;
+}
+
+#player-two-container {
+    margin-left: 50px;
+}
+
+#game-board-container {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 1rem auto;
+    border: 5px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#game-mode-container {
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    max-width: 50%;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 5px;
+}
