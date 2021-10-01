@@ -1,4 +1,4 @@
-import { board, checkWinner, clearBoard, move } from './gameBoardLogic';
+import { board, checkWinner, clearBoard, move } from './gameBoard';
 import { bestMove } from './minimax';
 import { Player } from './player';
 import './style.css';
@@ -16,6 +16,11 @@ let playerTwo;
 
 let currentPlayerSymbol = null;
 let isVersusComputer = false;
+
+const run = () => {
+    init();
+    initButtons();
+}
 
 const init = () => {
     clearBoard();
@@ -192,7 +197,8 @@ const reset = () => {
     container.innerHTML = "";
     init();
     render();
-}   
+}
 
-init();
-initButtons();
+run();
+
+export { run };

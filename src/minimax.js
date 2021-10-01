@@ -1,4 +1,4 @@
-import { board, move, checkWinner, clearSpace } from './gameBoardLogic';
+import { board, move, checkWinner, clearSpace } from './gameBoard';
 
 const scores = {
     X: -10,
