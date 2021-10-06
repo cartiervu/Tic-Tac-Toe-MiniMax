@@ -6,3 +6,11 @@ Tic-Tac-Toe implemented in a HTML + CSS + Javascript interface, combined with an
 
 ## Player vs. Computer
 <img src="https://cartiervu.github.io/docs/assets/Tic-Tac-Toe-Minimax-PvC.gif">
+
+## Built With
+- HTML
+- CSS
+- JavaScript
+
+##
+[Live Demo Link](https://cartiervu.github.io/Tic-Tac-Toe-MiniMax/)
