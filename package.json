@@ -1,17 +1,21 @@
 {
+  "homepage": "https://cartiervu.github.io/Tic-Tac-Toe-MiniMax/",
   "name": "tic-tac-toe",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.3.0",
+    "gh-pages": "^3.2.3",
     "style-loader": "^3.3.0",
     "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0"
