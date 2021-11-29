@@ -12,5 +12,5 @@ Tic-Tac-Toe implemented in a HTML + CSS + Javascript interface, combined with an
 - CSS
 - JavaScript
 
-##
-[Live Demo Link](https://cartiervu.github.io/Tic-Tac-Toe-MiniMax/)
+<!-- ##
+[Live Demo Link](https://cartiervu.github.io/Tic-Tac-Toe-MiniMax/) -->
